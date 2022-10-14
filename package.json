@@ -1,0 +1,8 @@
+{
+  "private": true,
+  "packageManager": "pnpm@7.13.4",
+  "workspaces": ["apps/*", "packages/*"],
+  "scripts": {
+    "start": "pnpm run -r --stream --parallel --if-present typecheck"
+  }
+}
